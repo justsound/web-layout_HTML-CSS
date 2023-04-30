@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.top{}
+/* =======HEADER====== */
+.header{
+    padding: 51px 0;
+    margin: 0 0 21px 0;
+    box-sizing: border-box;    
+}
+
+.logo{}
+
+.menu-list{}
+
+.menu-item{}
+
+.menu-link{}
+/* =======END HEADER====== */
+
+/* =======TOP INFO====== */
+.top-info{
+    margin: 0 0 53px 0;
+}
+
+.top-content{}
+
+.top-content-title{
+    margin: 0 0 17px 0 ;
+}
+
+.top-content-txt{
+    margin: 0 0 16px 0;
+}
+
+.top-info-pic{}
+/* =======END TOP INFO====== */
+/* =======TOP LOGOS====== */
+.top-logos{}
+
+.top-logos-list{}
+
+.top-logos-item{}
+
