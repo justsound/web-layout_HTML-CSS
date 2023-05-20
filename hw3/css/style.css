@@ -1,46 +1,140 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-.top{}
-/* =======HEADER====== */
-.header{
-    padding: 51px 0;
-    margin: 0 0 21px 0;
-    box-sizing: border-box;    
+body {
+    font-family: 'Gilroy', sans-serif;
+    color: #000;
+    background-color: #FFFFFF;
 }
 
-.logo{}
+a {
+    text-decoration: none;
+}
 
-.menu-list{}
+.center {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    /* outline: solid 2px black; */
+}
 
-.menu-item{}
+.top {}
 
-.menu-link{}
+/* =======HEADER====== */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.logo {}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.menu-item {}
+
+.menu-link {
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+
+
+}
+
 /* =======END HEADER====== */
 
 /* =======TOP INFO====== */
-.top-info{
-    margin: 0 0 53px 0;
+.top-info {
+    display: flex;
+    gap: 39px;
+    /* justify-content: space-between; */
+    margin: 84px auto 162px auto;
 }
 
-.top-content{}
-
-.top-content-title{
-    margin: 0 0 17px 0 ;
+.top-content {
+    max-width: 522px;
 }
 
-.top-content-txt{
+.top-content-title {
+    margin: 0 0 17px 0;
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.top-content-txt {
     margin: 0 0 16px 0;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
 }
 
-.top-info-pic{}
+.top-content-btn-wrp {
+
+    display: flex;
+    gap: 72px;
+}
+
+.top-content-btn1:hover {
+    background-color: #FFFFFF;
+    color: blue;
+    cursor: pointer;
+}
+
+.top-content-btn1:active {
+    background-color: blue;
+    color: #FFFFFF;
+}
+
+.top-content-btn1 {
+    display: block;
+    padding: 15px 35px;
+    box-sizing: border-box;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none;
+}
+
+.top-content-btn2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+    background: #ffffff;
+    border: none;
+}
+
+.top-info-pic {}
+
 /* =======END TOP INFO====== */
 /* =======TOP LOGOS====== */
-.top-logos{}
+.top-logos {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    /* outline: solid 2px black; */
+}
 
-.top-logos-list{}
+.top-logos-list {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    flex-wrap: wrap;
+}
 
-.top-logos-item{}
-
+.top-logos-item {}
